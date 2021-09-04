@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
 
+/*#region Global Styles */
 body {
   background-color: #fff8f0;
   font-family: "Open Sans", sans-serif;
@@ -13,6 +14,39 @@ h4 {
   color: #402e32;
 }
 
+.lead {
+  font-weight: 500 !important;
+  word-spacing: 1.5px;
+}
+
+hr {
+  border: 5px solid #BD871F;
+  width: 15%;
+  margin-right: 85%;
+  border-radius: 5px;
+}
+
+/************* PRELOADER Page style***********************/
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 99;
+}
+
+#loading-image {
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+}
+
+/************* Navigation Bar style***********************/
 .navbar {
   text-transform: uppercase;
   backdrop-filter: blur(10px);
@@ -24,12 +58,6 @@ h4 {
   font-weight: 700;
   letter-spacing: 2px;
   font-family: "Rakkas", cursive;
-  /* background: #402E32;
-    background: -webkit-linear-gradient(to right, #402E32 0%, #000080 50%, #138808 100%);
-    background: -moz-linear-gradient(to right, #402E32 0%, #000080 50%, #138808 100%);
-    background: linear-gradient(to right, #402E32 0%, #000080 50%, #138808 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
   text-shadow: 3px 2px 4px rgba(150, 150, 150, 0.8);
   padding: 0 5px;
   border: 3px solid #402e32;
@@ -58,7 +86,9 @@ ul > li > a:hover {
   text-align: center;
   backdrop-filter: grayscale(0.5) opacity(0.8);
 }
+/*#endregion */
 
+/*#region HERO Section */
 h1 span {
   color: #bd871f;
 }
@@ -106,12 +136,9 @@ h1 #myname::before {
   );
   clip-path: polygon(100% 0%, 75% 40%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
+/*#endregion */
 
-.lead {
-  font-weight: 500 !important;
-  word-spacing: 1.5px;
-}
-
+/*#region WORK Section */
 #work h3, #contact h3, #about h3 {
   font-weight: 500;
 }
@@ -175,104 +202,9 @@ h1 #myname::before {
   opacity: 1;
   right: 10px;
 }
+/*#endregion */
 
-hr {
-    border: 5px solid #BD871F;
-    width: 15%;
-    margin-right: 85%;
-    border-radius: 5px;
-}
-
-text {
-  font-size: 1rem;
-  font-family: cursive;
-}
-
-text a {
-  text-decoration: underline !important;
-  cursor: pointer;
-}
-
-svg foreignObject i {
-  background-color: #3b5998;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 10px;
-}
-
-svg foreignObject i:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-  box-shadow: 0 0 6px #BD871F;
-}
-
-#small-screen-footer {
-  font-size: 1.1rem;
-  font-family: cursive;
-  margin-top: 2rem;
-  font-weight: 700;
-}
-
-#small-screen-footer a {
-  text-decoration: underline !important;
-  cursor: pointer;
-  color: #333;
-}
-
-#small-screen-footer i {
-  background-color: #3b5998;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 10px;
-}
-
-#small-screen-footer i:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-  box-shadow: 0 0 6px #BD871F;
-}
-
-.transparent-input {
-  background-color: #D2B48C;
-  color: #402e32;
-}
-
-.transparent-input:focus {
-  border: 2px solid #a38d91 !important;
-}
-
-input[type="submit"] {
-  background-color: #402e32 !important;
-  font-size: 1rem;
-  font-weight: 300 !important;
-  margin-top: 2rem;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  position: relative;
-  color: #fff;
-  border: none;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 0%;
-  width: 15.5rem;
-  letter-spacing: 3px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  padding-right: 25px;
-  padding-left: 10px;
-  color: #bd871f;  
-  box-shadow: 3px 3px 3px #333;
-}
-
+/*#region ABOUT Section */
 .circle {
 position: relative;
 width: 300px;
@@ -345,23 +277,98 @@ display: flex;
   margin-left: -1.5rem;
   font-weight: 500;
 }
+/*#endregion */
 
-
-#loading {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  z-index: 99;
+/*#region CONTACT Section */
+.transparent-input {
+  background-color: #D2B48C;
+  color: #402e32;
 }
 
-#loading-image {
-  z-index: 100;
-  width: 50px;
-  height: 50px;
+.transparent-input:focus {
+  border: 2px solid #a38d91 !important;
 }
+
+input[type="submit"] {
+  background-color: #402e32 !important;
+  font-size: 1rem;
+  font-weight: 300 !important;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  position: relative;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0%;
+  width: 15.5rem;
+  letter-spacing: 3px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  padding-right: 25px;
+  padding-left: 10px;
+  color: #bd871f;  
+  box-shadow: 3px 3px 3px #333;
+}
+/*#endregion */
+
+/*#region FOOTER */
+text {
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+text a {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+svg foreignObject i {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+svg foreignObject i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  box-shadow: 0 0 6px #BD871F;
+}
+
+#small-screen-footer {
+  font-size: 1.1rem;
+  font-family: cursive;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+#small-screen-footer a {
+  text-decoration: underline !important;
+  cursor: pointer;
+  color: #333;
+}
+
+#small-screen-footer i {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#small-screen-footer i:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  box-shadow: 0 0 6px #BD871F;
+}
+/*#endregion */
