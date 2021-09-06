@@ -7,28 +7,29 @@
 
 ##### 1. How your portfolio should look?
 I went through many other web developer portfolios to get some inspiration and planned what my site should look like. <br />
-Some resources to checkout portfolios for inspiration:_
-[land-book](https://land-book.com/gallery/portfolios?from=month&order=popular)_
-[onepagelove](https://onepagelove.com/inspiration/portfolio)_
+Some resources to checkout portfolios for inspiration: <br />
+[land-book](https://land-book.com/gallery/portfolios?from=month&order=popular) <br />
+[onepagelove](https://onepagelove.com/inspiration/portfolio) <br />
 [screenlane](https://screenlane.com/platform/marketing-sites/)
 
 ##### 2. Color Selection
-    Once you have the design in your mind, Next step is to select a color palette.
-    There are wide range of color palettes available over the internet for free. you can choose any one among them..
-    However, I took a different approach. SELECTED 1 color (Tan-brown `#D2B48C`) at first and used [ColorSpace](https://mycolor.space/) to generate nice color palettes. And           finally, selected this Discreet color Palette `#D2B48C #BD871F #FFF8F0 #402E32` from the generated ones.
+Once you have the design in your mind, Next step is to select a color palette. <br />
+There are wide range of color palettes available over the internet for free. you can choose any one among them.. <br />
+However, I took a different approach. SELECTED 1 color (Tan-brown `#D2B48C`) at first and used [ColorSpace](https://mycolor.space/) to generate nice color palettes. And           finally, selected this Discreet color Palette `#D2B48C #BD871F #FFF8F0 #402E32` from the generated ones. <br />
     Some resources for color palettes:
       http://colours.neilorangepeel.com
       http://coolors.co
       https://mycolor.space
 
 ##### 3. Animations
-    Animations that you see on this portfolio were learnt and re-created based on (Online Tutorials)[https://www.youtube.com/c/OnlineTutorials4Designers] youtube channel. 
-    This is one of the best channel for a front end developer.
+    Animations that you see on this portfolio were learnt and re-created based on (Online Tutorials)[https://www.youtube.com/c/OnlineTutorials4Designers] youtube channel. <br />
+    This is one of the best channel for a front end developer. <br />
+    
     > Learnt CSS Animations, Graident Texts, SVG creations & many more..
 
 ##### 4. Responsiveness
-    I always use this site [Am-I-Responsive](http://ami.responsivedesign.is/) while developing a responsive website..
-    I'll also use Live-Server from VS code to test website on real mobiles & Tablets.
+    I always use this site [Am-I-Responsive](http://ami.responsivedesign.is/) while developing a responsive website.. <br />
+    I'll also use Live-Server from VS code to test website on real mobiles & Tablets. <br />
 
 ###### Finally, Please note this site is still being developed and improved over time..
 
