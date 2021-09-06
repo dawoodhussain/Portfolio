@@ -6,10 +6,10 @@
 #### Here is the approach I have taken & resources from the internet
 
 ##### 1. How your portfolio should look?
-I went through many other web developer portfolios to get some inspiration and planned what my site should look like.
-Some resources to checkout portfolios for inspiration:
-[land-book](https://land-book.com/gallery/portfolios?from=month&order=popular)
-[onepagelove](https://onepagelove.com/inspiration/portfolio)
+I went through many other web developer portfolios to get some inspiration and planned what my site should look like. <br />
+Some resources to checkout portfolios for inspiration:_
+[land-book](https://land-book.com/gallery/portfolios?from=month&order=popular)_
+[onepagelove](https://onepagelove.com/inspiration/portfolio)_
 [screenlane](https://screenlane.com/platform/marketing-sites/)
 
 ##### 2. Color Selection
