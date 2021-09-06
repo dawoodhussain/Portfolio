@@ -277,6 +277,51 @@ display: flex;
   margin-left: -1.5rem;
   font-weight: 500;
 }
+
+.skillImg {
+  font-size: 1.5rem;
+}
+
+.skillname {
+  font-size: 0.7em;
+  font-weight: 700;
+  color: #402e32;
+}
+
+.know-more {
+  display: inline-block;
+  position: relative;
+  background: #998366;
+  background: -webkit-linear-gradient(to right, #998366 0%, #694B52 50%, #D43333 100%);
+  background: -moz-linear-gradient(to right, #998366 0%, #694B52 50%, #D43333 100%);
+  background: linear-gradient(to right, #998366 0%, #694B52 50%, #D43333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.know-more:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #008E9B;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.know-more:hover {
+  color: #008E9B !important;
+  text-decoration: none !important;
+}
+
+.know-more:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 /*#endregion */
 
 /*#region CONTACT Section */
