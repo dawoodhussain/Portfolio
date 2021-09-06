@@ -22,7 +22,7 @@ http://coolors.co <br />
 https://mycolor.space
 
 ##### 3. Animations
-Animations that you see on this portfolio were learnt and re-created based on (Online Tutorials)[https://www.youtube.com/c/OnlineTutorials4Designers] youtube channel. <br />
+Animations that you see on this portfolio were learnt and re-created based on (Online-Tutorials)[https://www.youtube.com/c/OnlineTutorials4Designers] youtube channel. <br />
 This is one of the best channel for a front end developer. <br />
     
     > Learnt CSS Animations, Graident Texts, SVG creations & many more..
