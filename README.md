@@ -5,12 +5,16 @@
 
 #### Here is the approach I have taken & resources from the internet
 
+---
+
 ##### 1. How your portfolio should look?
 I went through many other web developer portfolios to get some inspiration and planned what my site should look like. <br />
 Some resources to checkout portfolios for inspiration: <br />
 [land-book](https://land-book.com/gallery/portfolios?from=month&order=popular) <br />
 [onepagelove](https://onepagelove.com/inspiration/portfolio) <br />
 [screenlane](https://screenlane.com/platform/marketing-sites/)
+
+---
 
 ##### 2. Color Selection
 Once you have the design in your mind, Next step is to select a color palette. <br />
@@ -21,15 +25,21 @@ http://colours.neilorangepeel.com <br />
 http://coolors.co <br />
 https://mycolor.space
 
+---
+
 ##### 3. Animations
 Animations that you see on this portfolio were learnt and re-created based on [Online-Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers) youtube channel. <br />
 This is one of the best channel for a front end developer. <br />
     
     > Learnt CSS Animations, Graident Texts, SVG creations & many more..
 
+---
+
 ##### 4. Responsiveness
 I always use this site [Am-I-Responsive](http://ami.responsivedesign.is/) while developing a responsive website.. <br />
 I'll also use Live-Server from VS code to test website on real mobiles & Tablets. <br />
+
+---
 
 ###### Finally, Please note this site is still being developed and improved over time..
 
