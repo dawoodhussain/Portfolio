@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description"
-    content="Web developer with 7 years commercial experience creating successful websites & Applications..">
+    content="Web developer with 8+ years commercial experience creating successful websites & Applications..">
   <meta name="keywords"
     content="Portfolio, Web, Developer, Web Developer, Front end, frontend, fullstack, full stack, HTML, CSS, JavaScript, BootStrap">
   <meta name="author" content="Mohammad Dawood Hussain">
@@ -54,7 +54,7 @@
             <span data-text="I'm Dawood." id="myname">I'm Dawood.</span>
           </h1>
           <h3 class="py-2">Front End Developer / Full Stack Developer</h3>
-          <p class="lead mt-5">I'm a web developer with <strong>7 years</strong> commercial experience creating
+          <p class="lead mt-5">I'm a web developer with <strong>8+ years</strong> commercial experience creating
             successful websites & Applications.
             I'm currently the lead developer at <u>Cognizant</u> - based in Hyderabad, Telangana, INDIA.
             In my spare time, I like working with few clients and building my own products. </p>
@@ -109,6 +109,50 @@
           </div>
         </div>
       </div>
+      <br>
+      <br>
+      <div id="project2">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 style="font-weight: 700;">Movie Search DB</h4>
+            <hr>
+            <p class="lead mx-3">
+              This application is a replica of <span><a href="https://www.imdb.com/" rel="noopener noreferrer"
+                target="_blank">IMDB</a></span> website. It provides movie rating, movie cast, celebrity details and you can watch movie related trailers as well.
+                I have designed this application in Angular from scratch by consuming youtube API, TMDB APIs.
+            </p>
+            <ul>
+              <li><span>Front end using HTML, CSS & Bootstrap</span></li>
+              <li><span>Web Design using Angular - Typescript</span></li>
+              <li><span>Backend by consuming APIs</span></li>
+            </ul>
+            <div id="learnings" class="mx-2">
+              <h6 class="mb-3" style="font-weight: 700;">My Learnings:</h6>
+              <ul>
+                <li><span>HTML5, CSS3, Angular</span></li>
+                <li><span>Third Party API Integrations</span></li>
+                <li><span><a href="https://github.com/dawoodhussain/movie-search" rel="noopener noreferrer"
+                  target="_blank">GITHUB Code Base</a></span></li>
+                <li><span>NETLIFY Deployment</span></li>
+              </ul>
+            </div>
+            <div class="my-5">
+              <a href="https://moviedh.netlify.app/" target="_blank" rel="noopener noreferrer"
+                class="button-a">Visit Website</a>
+            </div>
+          </div>
+          <div class="col-md-6" style="background-color: #D2B48C;border-radius: 10px;">
+            <div class="p-3">
+              <img src="img/moviesearch.png" alt="Movie search website image" class="img-fluid"
+                id="site-image">
+            </div>
+            <div>
+              <img src="img/resp-moviesearch.png" alt="responsive movie search website image"
+                class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="about">
@@ -129,28 +173,6 @@
             <br>
             <u><i>Here are a few technologies I’ve been working with:</i></u>
           </p>
-          <!-- <div style="margin-left: 25%;margin-top: 10px;">
-            <ul id="my-techs">
-              <li>JavaScript (ES6+)</li>
-              <li>HTML/CSS/Bootstrap</li>
-              <li>Angular 11</li>
-              <li>TypeScript</li>
-              <li>C# .net/MVC</li>
-              <li>Unix - Shell Scripting</li>
-              <li>Oracle PLSQL</li>
-              <li>SQL Server 201</li>
-              <li>Github/SVN/TFS</li>
-            </ul>
-
-            <p class="lead">
-              Please check <a href="https://dawoodhussain.github.io/dh-cv/" rel="noopener noreferrer"
-                target="_blank">my-CV</a> for more details.
-            </p>
-          </div> -->
-          <!-- <p class="lead">
-          I am also experienced in building systems that implement business logic and interact with server-side technology via APIs.
-          After understanding your requirements, I can use my years of experience to determine the right tools and development methods for you. Often the simplest approach is the most successful.
-        </p> -->
         </div>
         <div>
         <div class="row mt-3">
@@ -234,7 +256,7 @@
         </div>
       </div>
   </div>
-  </section>
+</section>
 
   <section id="contact">
     <h3 class="display-4 text-center mt-5 mb-3">Contact Me</h3>
@@ -253,7 +275,7 @@
           required></textarea>
       </div>
 
-      <input type="submit" value="Send Message" class="btn btn-primary btn-md-block">
+      <input type="submit" value="Send Message" class="btn btn-primary btn-md-block" id="sendMail">
     </form>
   </section>
   </div>
@@ -322,6 +344,14 @@
 
     $(document).ready(function () {
       $('[data-toggle="tooltip"]').tooltip();
+
+      $('#sendMail').click(function() {
+        var clientName = 'By Sir ' + $('#name').val() + ' for project discussion';
+        var clientEmail = $('#email').val();
+        var clientMsg = $('#message').val();
+
+        window.open('mailto:'+clientEmail+'?subject='+clientName+'&body='+clientMsg);
+      });
     });
 
     $('.navbar-nav>li>a').on('click', function () {
@@ -354,6 +384,10 @@
         });
       }, 1000);
     })
+
+    function sendMail() {
+      window.open('mailto:test@example.com?subject=subject&body=body');
+    }
 
     const text = document.querySelector('.circle .logo .text p');
     text.innerHTML = text.innerText.split("").map(
